@@ -27,7 +27,7 @@ st.markdown(
 # --- Title and Logo ---
 col1, col2 = st.columns([1, 8])
 with col1:
-    logo_path = "ATO logo.png"
+    logo_path = "ATO_LOGO.png"
     if os.path.exists(logo_path):
         st.image(logo_path, use_container_width=True)
     else:
